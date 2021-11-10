@@ -1,0 +1,108 @@
+body,
+html {
+  font-family: Papyrus, Helvetica, sans-serif;
+  margin: 0px;
+  margin-top: -10px;
+  padding: 0px;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(216, 204, 204);
+}
+
+.header {
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.header, 
+.bottom {
+  z-index: 10; 
+  position: fixed;
+}
+
+p {
+  z-index: 10; 
+  position: fixed;
+  bottom: 150px;
+  width: 95%;
+  font-size: 25px;
+  /* width: 50%; */
+  margin-left: 30px;
+  margin-right: 50px;
+  /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+
+  /* background-color: white; */
+}
+
+/* a {
+    z-index: 10; 
+    position: fixed;
+    bottom: 35px;
+    width: 95%;
+    font-size: 25px;
+    /* width: 50%; */
+    /* margin-left:35px; */
+    /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  
+    /* background-color: white; */
+  /* } */
+
+h1 {
+  font-weight: normal;
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 30px;
+  /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  line-height: 90%;
+}
+
+/* .header:hover {
+    z-index: -10;
+} */
+/* .gallery {
+  /* float: left; */
+  /* position: relative; */
+  /* width: 100%;
+  height: auto;
+  /* width: 24%; */
+  /* margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 10px; */ 
+/* } */
+/* 
+.gallery img {
+  width: 100%;
+  height: auto;
+} */
+
+.video {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+/* .overlay {
+  position: relative;
+  z-index: 2;
+  top: 8px;
+  left: 8px;
+} */
+
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .gallery {
+    width: 95%;
+  }
+
+  .div2 {
+    width: 95%;
+  }
+
+} 
+
+
