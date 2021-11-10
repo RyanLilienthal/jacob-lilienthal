@@ -6,7 +6,7 @@ html {
   padding: 0px;
   height: 100vh;
   color: rgb(0, 0, 0);
-  background-color: rgb(216, 204, 204);
+  background-color: rgb(209, 196, 196);
 }
 
 .header {
@@ -24,7 +24,7 @@ html {
 p {
   z-index: 10; 
   position: fixed;
-  bottom: 80px;
+  bottom: 50px;
   width: 95%;
   font-size: 25px;
   /* width: 50%; */
@@ -96,12 +96,12 @@ h1 {
 @media screen and (max-width: 800px) {
   body,
   html {
-    background-color: rgb(216, 204, 204);
+    background-color: rgb(209, 196, 196);
     /* margin-top: 25px;
     z-index: -1 */
   }
   
-  .header {
+  .video {
     margin-top: 150px;
   }
   
