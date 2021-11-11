@@ -47,15 +47,6 @@ html {
   }
   
   .video {
-    margin-top: 600px;
+    position: sticky;
+    bottom: 10px;
   }
-  
-    .gallery {
-      width: 95%;
-    }
-  
-    .div2 {
-      width: 95%;
-    }
-  
-  } 
