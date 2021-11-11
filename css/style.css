@@ -20,12 +20,16 @@ html {
   z-index: 10; 
   position: fixed;
   margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 25px;
   line-height: 30px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .video {
