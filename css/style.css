@@ -20,13 +20,13 @@ html {
   z-index: 10; 
   position: fixed;
   margin-left: 40px;
-  margin-top: 40px;
+  margin-top: 30px;
   line-height: 30px;
 }
 
-  p {
-    font-size: 25px;
-  }
+p {
+  font-size: 25px;
+}
 
 .video {
   position: absolute;
