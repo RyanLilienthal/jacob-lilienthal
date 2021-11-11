@@ -24,7 +24,7 @@ html {
 p {
   z-index: 10; 
   position: fixed;
-  bottom: 20px;
+  bottom: 15px;
   width: 95%;
   font-size: 25px;
   /* width: 50%; */
