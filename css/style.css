@@ -9,31 +9,35 @@ html {
   background-color: rgb(216, 204, 204);
 }
 
-.header {
+/* .header {
   padding: 5px;
   width: 100%;
   text-align: left;
-}
+} */
 
-.header, 
-.bottom {
+.header {
+/* .bottom { */
   z-index: 10; 
   position: fixed;
+  margin-left: 70px;
+  margin-top: 40px;
+  line-height: 30px;
 }
 
-p {
-  z-index: 10; 
-  position: fixed;
-  bottom: 15px;
-  width: 95%;
+  p {
+  /* z-index: 10;  */
+  /* position: fixed; */
+  /* bottom: 15px; */
+  /* width: 95%; */
   font-size: 25px;
   /* width: 50%; */
-  margin-left: 25px;
-  margin-right: 50px;
-  /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+  /* margin-left: 0px; */
+  /* margin-right: 50px; */
+  line-height: 30px;
+  
 
   /* background-color: white; */
-}
+/* } */
 
 /* a {
     z-index: 10; 
@@ -51,10 +55,10 @@ p {
 h1 {
   font-weight: normal;
   margin-left: 25px;
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 30px;
   /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
-  line-height: 90%;
+  line-height: 100%;
 }
 
 /* .header:hover {
