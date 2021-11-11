@@ -47,6 +47,6 @@ p {
   }
   
   .video {
-    position: sticky;
+    position: fixed;
     bottom: 10px;
   }
